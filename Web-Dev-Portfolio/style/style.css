@@ -1,0 +1,174 @@
+
+    
+    *{
+        box-sizing: border-box;
+        margin:0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+font-family: 'Source Serif Pro', serif;
+overflow: hidden;
+
+
+/* background-color: aqua; */
+    }
+
+    body{
+        height: 100vh;
+        width: 100vw;
+        background-color: #edf1fd;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+    }
+
+    ul li{
+        list-style: none;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    a{
+        text-decoration: none;
+    
+    }
+
+    button{
+        background-color: rgb(18, 155, 155);
+        padding: 4px 10px;
+        cursor: pointer;
+        color: white;
+        border: 1px solid white;
+        border-radius: 5px;
+        font-weight: 600;
+        width: fit-content;
+        justify-content: space-around;
+    }
+
+    button:hover{
+        background-color: white;
+        color: black;
+        border: 1px solid black;
+    }
+    nav {
+        display: flex;
+        width: 100%;
+        /* Veritcal adjustment below */
+        align-items:center;
+        /* Gap between three elements below */
+        justify-content: space-around;
+
+    }
+
+    nav .logo{
+        font-size: 700;
+        font-size:30px;
+
+    }
+
+    nav ul{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        font-weight: 500;
+    }
+
+    nav ul li:hover{
+        text-decoration: underline;
+        font-weight: 900;
+    }
+
+    .search-field{
+        display: flex;
+        gap:35px;
+
+    }
+
+    input{
+        padding: 4px 10px;
+    }
+
+    header{
+        margin-top: 30px;
+    }
+    .hero{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero-left h1{
+        font-size: 40px;
+        margin-bottom: 20px;
+        font-weight: 700;
+    }
+
+    .hero-left{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-left h1 span{
+        color: rgb(18, 155, 155);
+        font-weight: 900;
+        font-size: 2.5rem;
+    }
+
+    .hero-left p{
+        font-weight: 500;
+    }
+
+    .hero-left p span{
+        font-weight: 700;
+        font-size: 25px;
+        color: rgb(18, 155, 155);
+    }
+
+    .hero-right{
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        align-items: center;
+        justify-content: center;
+        gap:30px;
+    }
+
+    .hero-right-button{
+        display: flex;
+        align-items: center;
+        gap:30px;
+    }
+
+    .hero-right img{
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+    }
+
+    footer{
+        display: flex;
+        align-items: center;
+        padding: 20px 0;
+        justify-content: space-around;
+    }
+
+    footer p{
+        font-weight: 600;
+    }
+
+    footer ul{
+        display: flex;
+        align-items: center;
+        gap:30px;
+       
+    }
+
+
+    /* Jitne andar target karna hain, toh sare elements target karte hain as below  */
+    footer ul li a i{
+        color: black;
+    }
+
+    footer ul li a i:hover{
+       color:rgb(18, 155, 155)
+    }
