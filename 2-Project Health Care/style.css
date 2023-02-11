@@ -1,0 +1,100 @@
+/* All body code */
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f5ed;
+    font-family: 'Poppins', sans-serif;
+font-family: 'Source Serif Pro', serif;
+}
+
+/* Navigation bar or Header */
+nav{
+
+    /* Top bottom | right left (In padding)*/
+    padding: 20px 10%;
+    height: 15vh;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+
+    /* trick to give space between li */
+    margin-right: 5%;
+    /* font boldeness */
+    font-weight: 600;
+    
+}
+
+nav ul li img{
+    width: 100px;
+}
+
+/* main section */
+section{
+    display: flex;
+
+    /* horizontal & vertical allign */
+    align-items: center;
+    justify-content: center;
+}
+
+/* left side main */
+
+.left-hero{
+    width: 40%;
+}
+
+.left-hero h1{
+    font-size: 60px;
+}
+
+.left-hero p{
+
+    /* top down | right left */
+    margin: 5% 0;
+}
+
+.left-hero button{
+    padding: 15px 20px;
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+    border: none;
+    background-color: #3b855b;
+    border-radius: 10px;
+}
+
+.left-hero button:hover{
+    background-color: #fff;
+    color: #3b855b;;
+}
+
+/* right side main */
+
+.right-hero{
+    /* width: 60%; */
+    padding: 7%;
+}
+
+.right-hero div img{
+    width: 30%;
+}
+
+.right-hero div img:first-child{
+margin-right: 20px;
+}
+
+.right-hero div{
+    margin-bottom: 20px;
+}
+
+.right-hero>img{
+    width: 64%;
+}
