@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+   
+   
+    color: white;
+}
+
+body{
+    background-image: url(assets/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+button{
+    background-color: #BA0CC5;
+    line-height: 20px;
+    padding: 20px 2%;
+    border: none;
+    border-radius: 10px;
+    
+}
+/* header section */
+header{
+   
+    background-color: black;
+    padding: 20px 5%;
+    font-family: "Poppins", sans-serif;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    
+   
+}
+
+ul{
+    display: flex;
+    gap: 20px 30px;
+}
+li{
+    text-decoration: none;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.logo{
+    border-right-color: white;
+    border-right: 2px;
+}
+
+.line{
+    width: 1px;
+    height: 50px;
+    background-color: #fff;
+    margin-left: 63px;
+}
+
+.grow-list{
+    flex-grow: 1;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+    gap: 63px;
+    list-style: none;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    margin-left: 64px;
+}
+.button-top{
+    padding: 7px 28px;
+    background: #ba0cc5;
+    border-radius: 6px;
+    border: none;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+/* main section */
+
+section{
+    /* background-attachment: fixed; */
+  height: 91.5vh;
+  text-align: center;
+}
+
+.heading-text{
+    max-width: 846px;
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 98px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 172px;
+}
+.descripton{
+    font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+  color: #ffffff;
+}
+
+.bottom-button{
+    background: #ba0cc5;
+    border-radius: 11.2308px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 29.9487px;
+    line-height: 45px;
+    color: #ffffff;
+    border: none;
+    padding: 14px 22px;
+    margin-top: 64px;
+    cursor: pointer;
+}
