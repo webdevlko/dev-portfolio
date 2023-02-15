@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Red Rose", cursive;
+}
+
+
+/* Header Section */
+
+nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    align-content: center;
+    margin: 60px 8% ;
+}
+
+nav ul {
+    display: flex;
+    text-decoration: none;
+    color:black;
+    list-style: none;
+    gap: 5%;
+    font-size: larger;
+    /* justify-content: center; */
+    align-items: center;
+    cursor: pointer;
+     
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    margin: 0% 10px;
+}
+
+
+a:hover{
+    color: #5955b3;
+}
+
+button{
+    background-color: #5955B3;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: larger;
+}
+
+/* Main section */
+
+section{
+    display: flex;
+    align-items: center;
+    padding: 0% 8%;
+}
+
+.heading-text{
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 74px;
+    color: #3c2f60;
+}
+
+.description{
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.01em;
+    color: #828282;
+    margin-top: 28px;
+}
+
+.button-bottom{
+    margin-top: 30px;
+}
+
+span{
+    color: #5955B3;
+}
