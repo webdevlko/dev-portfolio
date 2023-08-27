@@ -1,0 +1,72 @@
+<style>
+    .accordion {
+      font-family:helvitica;
+      background-color: #ffff;
+      color: #444;
+      cursor: pointer;
+      padding: 18px;
+      width: 100%;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 13px;
+      transition: 0.4s;
+    }
+    
+    .active, .accordion:hover {
+      background-color: #ccc;
+    }
+    
+    .panel {
+      padding: 0 18px;
+      background-color: white;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.2s ease-out;
+      font-size:9px;
+    }
+      
+     
+    </style>
+    </head>
+    <body>
+    
+    
+    <h2 class="accordion">Best Princess Dresses for Baby Girl | Baby Girl Dresses</h2>
+    <div class="panel">
+      <p>Step into a world of Thedaughterhouse.com with our <b>best princess dresses for baby girls</b>! Each dress is a magical masterpiece, crafted with love and care to make your little one's dreams come true. From the softest fabrics that caress her skin to the intricate details that sparkle like fairy dust, our dresses are fit for a tiny queen.
+    
+    Dress her in wonder, elegance, and wonderment with our <strong>best princess dresses for baby girls</strong>. Each dress tells a unique tale, and she becomes the radiant star in her own fairy tale. Let her delight in the magic that awaits – because she deserves nothing less!</p>
+    </div>
+    
+    <h2 class="accordion">Best Brand for Kidwear in India | Baby Girl Dresses</h2>
+    <div class="panel">
+      <p>Discover the perfect blend of comfort and grace with Thedaughterhouse.com, where your child’s happiness is our top priority. Let her step into a world of grace and charm with our premium branded <strong>baby girl dresses collections</strong>. We provide best brand for kidwear in India.</p>
+    </div>
+    
+    <h2 class="accordion">Ethnic New Collection 2023 | Girl Dresses</h2>
+    <div class="panel">
+      <p>Thedaughterhouse we take pride in offering India’s finest <strong>party ethnic collections</strong> and lehengas for girls aged 1 to 10 years old. Our exclusive and fashionable dresses are designed to make your little girl look stylish, elegant, and as a princess. With our premium collection, your daughter can shine and stand out at any event or celebration. Embrace the latest trends and make your little one feel like a true fashion icon.</p>
+    </div>
+    
+    <h2 class="accordion">Branded Cute Birthday Outfits for Girls | Childrens Dress Collection | Thedaughterhouse.com</h2>
+    <div class="panel">
+      <p>Celebrate her special day in style with Thedaughterhouse.com branded cute <strong>birthday outfits for girls</strong>. Our handpicked childrens dress collection ensures both comfort and elegance. Let your little one’s personality shine with our adorable and unique designs. Make her birthday extra special with our enchanting pretty birthday dresses collection today!</p>
+    </div>
+    
+    <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+        } 
+      });
+    }
+    </script>
